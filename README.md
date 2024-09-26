@@ -91,6 +91,5 @@ This assignment demonstrates key concepts in the analysis of nonlinear systems. 
 
 ## Files
 
-- **`pendulum.m`**: MATLAB code for simulating the pendulum system.
-- **`lorenz.m`**: MATLAB code for simulating the Lorenz system.
-- **`phase_plane.m`**: MATLAB function for plotting phase-plane portraits.
+- **`Ex_1.m`**: MATLAB code for simulating the pendulum system.
+- **`Ex_2.m`**: MATLAB code for simulating the Lorenz system.
