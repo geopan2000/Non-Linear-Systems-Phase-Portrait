@@ -2,7 +2,7 @@
 init_cond = [3; 3; 3];
 tspan = [0 500];
 sigma_v = [1]; %simulate for various sigma
-for i = 1:length(sigma_values)
+for i = 1:length(sigma_v)
     sigma = sigma_v(i); % Current value of sigma
     [t, X] = ode23(@(t, x) sys(t, x, sigma), tspan, init_cond); % Run simulation
     % Plot results
